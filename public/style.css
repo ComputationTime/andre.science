@@ -21,6 +21,7 @@ article {
 footer {
   width: 100vw;
   background-color: rgb(220, 220, 220)
+
 }
 
 footer h3 {
@@ -31,8 +32,7 @@ footer h3 {
 
 footer ion-icon {
   font-size: 50px;
-  margin: 50px;
-  margin-top: 20px;
+  margin: 20px;
 }
 
 h1 {
@@ -40,7 +40,7 @@ h1 {
   margin-bottom: 68px;
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 45px;
+  font-size: min(11vw, 70px);
   font-weight: normal;
 }
 
@@ -73,6 +73,7 @@ nav {
 }
 
 nav a {
+  min-width: 50%;
   font-family: monospace;
   flex-grow: 1;
   text-align: center;
@@ -185,9 +186,9 @@ img {
 
 .socials {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-top: 20px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .main-text {
